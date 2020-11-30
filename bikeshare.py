@@ -299,7 +299,7 @@ def user_stats(df):
     print('-'*40)
 
     # TO DO: Display counts of gender by using the value_counts method
-    # Handling the Washington exception by using using try, except
+    # Handle the Washington exception by using using try, except
 
     try:
         df['Gender']
@@ -311,7 +311,7 @@ def user_stats(df):
     print('-'*40)
 
     # TO DO: Display earliest, most recent, and most common year of birth
-    # Handling the Washington exception by using using try, except
+    # Handle the Washington exception by using using try, except
 
     try:
         df['Birth Year']
