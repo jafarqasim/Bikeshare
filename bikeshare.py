@@ -110,7 +110,7 @@ def get_filters():
 
     months_list = ['january', 'february', 'march', 'april', 'may', 'june']
     month=''
-    # Checking if the user input included within the month_list list.
+    # Check if the user input included within the month_list list.
     while True:
         month = int(input('* Kindly choose the month number to investigate further:').strip())
         if 1 <= month <= 6:
