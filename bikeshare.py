@@ -33,8 +33,6 @@ def choice (choice):
             print("\nInvalid Entry, Try Again!\n")
             continue
 
-
-
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
