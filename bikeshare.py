@@ -63,21 +63,21 @@ def get_filters():
 
         if city==1:
             print()
-            print('You have chosen {}'.format(list(CITY_DATA.keys())[0].title())) # Displaying the dictionary key index 0 = Chicago, return as list
+            print('You have chosen {}'.format(list(CITY_DATA.keys())[0].title())) # Display the dictionary key index 0 = Chicago, return as list
             city="chicago"
             choice(city)
             print()
             break
         elif city==2:
             print()
-            print('You have chosen {}'.format(list(CITY_DATA.keys())[1].title())) # Displaying the dictionary key index 1 = new york city, return as list
+            print('You have chosen {}'.format(list(CITY_DATA.keys())[1].title())) # Display the dictionary key index 1 = new york city, return as list
             city="new york city"
             choice(city)
             print()
             break
         elif city==3:
             print()
-            print('You have chosen {}'.format(list(CITY_DATA.keys())[2].title())) # Displaying the dictionary key index 2 = washington, return as list
+            print('You have chosen {}'.format(list(CITY_DATA.keys())[2].title())) # Display the dictionary key index 2 = washington, return as list
             city="washington"
             choice(city)
             print()
